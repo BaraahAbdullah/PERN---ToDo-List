@@ -1,7 +1,7 @@
-const pool = require("pg").pool;
+const Pool = require("pg").Pool;
 
 
-const pool = new pool({
+const pool = new Pool({
     user: "postgres",
     password: "12345",
     host: "localhost",
